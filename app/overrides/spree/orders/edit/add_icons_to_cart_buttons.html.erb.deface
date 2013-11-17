@@ -5,7 +5,6 @@
     <i class="icon-arrows-ccw"></i>
     <%= Spree.t(:update) %>
   <% end %>
-  
   <%= button_tag :class => 'button checkout primary', :id => 'checkout-link', :name => 'checkout' do %>
     <i class="icon-right"></i>
     <%= Spree.t(:checkout) %>
